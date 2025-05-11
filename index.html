@@ -61,6 +61,24 @@
         .datos-personales {
             margin-bottom: 20px;
         }
+        .subtitulo-empresa {
+            font-size: 0.95em;
+            color: #222;
+            font-weight: bold;
+            display: block;
+            margin-top: 2px;
+            font-style: italic;
+        }
+        @media print {
+            body {
+                padding: 0;
+                font-size: 12pt;
+            }
+            .profile-photo {
+                width: 100px;
+                height: 125px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -93,16 +111,10 @@
     <h2>Experiencia laboral</h2>
     
     <h3>20/03/2024 - 19/04/2024</h3>
-    <p><strong>AQUAÑA S.A.C.</strong></p>
-    <ul>
-        <li>Funciones específicas no detalladas en el registro</li>
-    </ul>
+    <p><strong>AQUAÑA S.A.C.</strong><span class="subtitulo-empresa">saneamiento</span></p>
     
     <h3>03/07/2023 - 19/09/2023</h3>
-    <p><strong>AQUAÑA S.A.C.</strong></p>
-    <ul>
-        <li>Funciones específicas no detalladas en el registro</li>
-    </ul>
+    <p><strong>AQUAÑA S.A.C.</strong><span class="subtitulo-empresa">packing</span></p>
     
     <h2>Educación</h2>
     
